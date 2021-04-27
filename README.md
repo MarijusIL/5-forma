@@ -6,7 +6,7 @@
 # Sign up
 
 
-This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
+This project is for educational porpuses only.
 
 Site published at https://marijusil.github.io/5-forma/
 
