@@ -22,9 +22,14 @@ body {
 
   .left-column {
     width: 40%;
+    height: 400px;
     padding: 40px;
     float: left;
     background-color: #5c37a8;
+    background-image: url(../hill.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
   .main-title {
@@ -49,7 +54,7 @@ body {
   .right-column {
     width: 60%;
     float: left;
-    padding: 60;
+    padding: 60px;
     background-color: #fff;
   }
 
