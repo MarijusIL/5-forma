@@ -17,19 +17,21 @@ body {
     width: 800px;
     margin-top: 100px;
     margin-left: calc((100% - 800px) / 2);
-    background-color: yellow;
+    position: relative;
   }
 
   .left-column {
     width: 40%;
     height: 400px;
     padding: 40px;
-    float: left;
     background-color: #5c37a8;
     background-image: url(../hill.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: absolute;
+    top: 40px;
+    bottom: 40px;
   }
 
   .main-title {
@@ -40,8 +42,12 @@ body {
 
   .bottom-links {
     display: inline-block;
-    width: 100%;
     color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    right: 40px;
+
   }
 
   .link {
@@ -53,10 +59,9 @@ body {
 
   .right-column {
     width: 60%;
-    float: left;
+    float: right;
     padding: 60px;
     background-color: #fff;
-    position: relative;
   }
 
   .close {
@@ -66,6 +71,9 @@ body {
     position: absolute;
     top: 0;
     right: 0;
+    font-size: 30px;
+    text-align: center;
+    line-height: 54px;
   }
 
   .form {
