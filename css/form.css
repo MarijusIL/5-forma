@@ -1,0 +1,76 @@
+.form {
+  display: inline-block;
+  width: 100%;
+}
+
+.form-row {
+  display: inline-block;
+  width: 100%;
+}
+
+.form-row + .form-row {
+  margin-top: 40px;
+}
+
+label {
+  display: inline-block;
+  width: 100%;
+  color: #999;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input {
+  display: inline-block;
+  width: 100%;
+  font-size: 20px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+input::placeholder {
+  font-style: italic;
+}
+
+input:focus {
+    outline: 2px solid #005dda;
+}
+
+button {
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 18px;
+  line-height: 20px;
+  color: white;
+  text-transform: capitalize;
+  background-color: #005dda;
+  border: 1px solid #005dda;
+  border-radius: 21px;
+}
+
+button :hover {
+  cursor: pointer;
+  background-color: #024eb3;
+}
+
+.form-row > span {
+  display: inline-block;
+  padding: 11px;
+  line-height: 20px;
+  margin-left: 11px;
+  font-size: 18px;
+}
+
+.form-row > a {
+  display: inline-block;
+  padding: 11px;
+  text-decoration: none;
+  line-height: 20px;
+  font-size: 18px;
+}
+.form-row > a:hover {
+  color: red;
+  text-decoration: underline;
+}
